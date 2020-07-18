@@ -7,3 +7,50 @@ body {
   font-family: "philosopher", serif;
   color: #443322;
 }
+
+.top-message{
+  width: 1200px;
+  height: 400px;
+  background-color: pink;
+  color: aliceblue;
+  margin: auto;
+
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  width: 100%;
+  background-color: aquamarine;
+
+}
+
+li{
+  margin-right: 40px;
+  height:40px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+li.nav-title {
+  margin-right: 60px;
+  margin-left: 30px;
+  font-size: 32px;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.personalinfo-box {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-box {
+  display: flex;
+  justify-content: center;
+}
+
+
