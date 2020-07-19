@@ -28,13 +28,12 @@ body {
   line-height: 50px;
 }
 
-
 ul{
   display: flex;
   list-style: none;
 }
 
-ul.nav-ul{
+.nav-ul{
   width: 100%;
   margin-top: 0;
   margin-bottom: 80px;
@@ -42,17 +41,17 @@ ul.nav-ul{
   border-radius: 8px;
 }
 
+.nav-title {
+  margin-right: 100px;
+  margin-left: 40px;
+  font-size: 32px;
+}
+
 li{
   margin-right: 60px;
   height:40px;
   line-height: 40px;
   font-size: 18px;
-}
-
-li.nav-title {
-  margin-right: 100px;
-  margin-left: 40px;
-  font-size: 32px;
 }
 
 a{
@@ -78,20 +77,32 @@ p {
   margin-right: 60px;
 }
 
+.hosoi-img{
+  border-radius: 8px;
+}
+
 .link-box{
 /* margin:0, auto; */
-}
-
-h3.koudou{
-  padding-left: 20px;
-}
-
-.portfolio-box {
-  display: flex;
-  justify-content: center;
 }
 
 .personalinfo-subbox {
   margin-bottom: 80px;
   padding-left: 100px;
 }
+
+.portfolio-box {
+  display: flex;
+  margin-left: 100px;
+  margin-bottom:40px;
+ }
+
+ .myhome-img {
+   margin-left: 40px;
+   border-radius: 8px;
+
+ }
+
+ footer {
+ text-align: center;
+ }
+
