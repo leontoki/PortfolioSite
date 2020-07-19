@@ -8,21 +8,35 @@ body {
   color: #443322;
 }
 
-.top-message{
-  width: 1200px;
-  height: 400px;
-  background-color: pink;
-  color: aliceblue;
+.top-message-box{
+  width: 100%;
+  height: 450px;
   margin: auto;
-
+  padding: 20px;
+  background-color:#dbedf0;
+  color:#443322;
+  text-align: center;
 }
+
+.appeal-title{
+  color: red;
+}
+
+.appeal-content{
+  font-size: 20px;
+  line-height: 50px;
+}
+
+
 
 ul{
   display: flex;
   list-style: none;
+}
+
+ul.nav-ul{
   width: 100%;
   background-color: aquamarine;
-
 }
 
 li{
