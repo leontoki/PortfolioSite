@@ -13,7 +13,8 @@ body {
   height: 450px;
   margin: auto;
   padding: 20px;
-  background-color:#dbedf0;
+  background-color: rgb(127, 246, 255,0.5);
+  border-radius: 8px;
   color:#443322;
   text-align: center;
 }
@@ -28,7 +29,6 @@ body {
 }
 
 
-
 ul{
   display: flex;
   list-style: none;
@@ -36,24 +36,28 @@ ul{
 
 ul.nav-ul{
   width: 100%;
-  background-color: aquamarine;
+  margin-top: 0;
+  margin-bottom: 80px;
+  background-color: rgba(127, 255, 229, 0.5);
+  border-radius: 8px;
 }
 
 li{
-  margin-right: 40px;
+  margin-right: 60px;
   height:40px;
   line-height: 40px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 li.nav-title {
-  margin-right: 60px;
-  margin-left: 30px;
+  margin-right: 120px;
+  margin-left: 40px;
   font-size: 32px;
 }
 
 a{
   text-decoration: none;
+  color: #443322;
 }
 
 
