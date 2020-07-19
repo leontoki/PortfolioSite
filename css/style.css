@@ -50,7 +50,7 @@ li{
 }
 
 li.nav-title {
-  margin-right: 120px;
+  margin-right: 100px;
   margin-left: 40px;
   font-size: 32px;
 }
@@ -60,10 +60,30 @@ a{
   color: #443322;
 }
 
+h2 {
+  margin-top: 0;
+}
+
+p {
+  padding-left: 20px;
+}
 
 .personalinfo-box {
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
+}
+
+.person-box {
+  margin-right: 60px;
+}
+
+.link-box{
+/* margin:0, auto; */
+}
+
+h3.koudou{
+  padding-left: 20px;
 }
 
 .portfolio-box {
