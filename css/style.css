@@ -68,7 +68,7 @@ p {
   padding-left: 20px;
 }
 
-.personalinfo-box {
+.personalinfo-mainbox {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
@@ -91,4 +91,7 @@ h3.koudou{
   justify-content: center;
 }
 
-
+.personalinfo-subbox {
+  margin-bottom: 80px;
+  padding-left: 100px;
+}
