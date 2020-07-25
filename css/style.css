@@ -107,10 +107,17 @@ span{
 .now{
   width: 855px;
   margin-left: 30px;
-  color: red;
   font-weight: bold;
-  border-bottom: red double;
+  border-bottom:double;
 }
+
+.vision {
+  width: 1130px;
+  margin-left: 30px;
+  font-weight: bold;
+  border-bottom:double;
+}
+
 
 .portfolio-top{
   width: 100%;
