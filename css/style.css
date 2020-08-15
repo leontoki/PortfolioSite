@@ -144,14 +144,28 @@ header a {
 
 .now {
   width:52.5rem;
+  margin-top: 0;
   margin-left: 1.8rem;
   font-weight: bold;
   border-bottom:double;
 }
 
+.study__container {
+  background-color: rgb(127, 246, 255,0.3);
+  padding-bottom: 0.3rem;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+}
+
+.study__container p {
+  line-height: 1rem;
+  margin-top: 0.5rem;
+}
+  
 .vision {
-  margin-left: 1.5rem;
+  margin:0.5rem 0 5rem 2.1rem;
   font-weight: bold;
+  line-height: 1.8rem;
 }
 
 /* ポートフォリオ */
@@ -175,43 +189,56 @@ header a {
   margin-top: 0.1rem;
 }
 
-.portfolio-description__box a {
+.portfolio-description__box a,.portfolio__evenbox a {
   margin-left: 1.5rem;
   color: rgb(95, 14, 170);
   text-decoration-style: initial;
 }
 
-.portfolio-description__box a:hover {
+.portfolio-description__box a:hover,.portfolio__evenbox a  {
   background-color:transparent;
 }
 
 .portfolio__oddbox {
-  display: flex;
-  margin-left: 100px;
-  margin-bottom:40px;
+  margin-left: 5rem;
+  margin-bottom:2rem;
  }
 
 .portfolio__evenbox {
-  display: flex;
-  margin-left: 100px;
-  margin-bottom:40px;
-  background-color:rgb(172, 167, 167,0.3);
+  background-color: rgb(127, 246, 255,0.2);
+  margin-bottom: 2rem;
+  padding:1rem 0 1rem;
+  border-radius: 4px;
  }
 
- .portfolio-img__box img {
-   border: 1px solid;
+ .portfolio__evenbox h2,.portfolio__evenbox a,.devlop__container h3,.devlop__container p {
+   margin-left:5rem;
+ }
+
+.home__container,.devlop__container,.portfolio__oddbox {
+  display: flex;
+}
+        
+.portfolio-img__box img {
+  border: 1px solid;
  }
 
 .MJ-img {
-   margin-top: 3rem;
-   margin-left: 2rem;
+  margin:3rem 2rem 0rem;
 }
 
- .myhome-img {
-   margin-left: 40px;
+.room-img1 {
+   margin:1rem 1rem 1rem 5.5rem;
  }
 
+.room-img2 {
+   margin:1rem 0.5rem 1rem 0.2rem;
+ }
+
+
+
  footer {
+ margin-top: -1rem;
  text-align: center;
  }
 
