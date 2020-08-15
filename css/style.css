@@ -15,6 +15,7 @@ h1 {
 
 h2 {
   margin-top: 0;
+  margin-bottom: 0.1rem;
 }
 
 p {
@@ -43,6 +44,10 @@ a:hover {
 span {
   color: red;
   font-weight: bold;
+}
+
+img {
+  border-radius: 4px;
 }
 
 /* トップイメージ */
@@ -104,8 +109,9 @@ header a {
   margin-right: 3rem;
 }
 
-.personal-info__mainbox img{
-  border-radius: 8px;
+.personal-info p {
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
 }
 
 .snslink__box{
@@ -194,7 +200,6 @@ header a {
 
  .portfolio-img__box img {
    border: 1px solid;
-   border-radius: 4px;
  }
 
 .MJ-img {
@@ -204,7 +209,6 @@ header a {
 
  .myhome-img {
    margin-left: 40px;
-   border-radius: 8px;
  }
 
  footer {
