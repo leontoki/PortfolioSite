@@ -15,20 +15,20 @@
     <h1>自分の強み : 働くことが大好きです。</h1>
     <h2>
       好きなので自発的に行動出来ます。<br>全力で取り組み、お客様や仲間に貢献するのは楽しいことです。<br>たとえ業界や職種が変わっても本質は変わらないと本気で思っています。<br>これが既に社会人生活を10年以上経験している私が、必死に考え辿り着いた自分の強みです。<br>
-      =少しでもご興味を持って頂けましたら、是非ご連絡をお願い致します=<br>
+      <span>=少しでもご興味を持って頂けましたら、是非ご連絡をお願い致します=</span><br>
   </div>
 
   <header>
     <ul>
       <li class="nav__title">細井哲哉 Portfolio Site</li>
-      <li><a href="#aboutme">about me</a></li>
+      <li><a href="#about-me">about me</a></li>
       <li><a href="#original">個人運営中サイト</a></li>
       <li><a href="#team-develop">共同開発経験（OSS）</a></li>
       <li><a href="#other">その他の制作物（オリジナル）</a></li>
     </ul>
   </header>
 
-  <div class="about-me">
+  <div class="about-me" id="about-me">
 
     <div class="personal-info__mainbox">
       <div class="person__box">
@@ -47,7 +47,6 @@
         <h2>♦︎パーソナル情報</h2>
         <p>細井 哲哉</p>
         <p>1983年８月20日生(37歳)</p>
-        <p>細井 哲哉</p><br>
         <h3>♦︎行動理念</h3>
         <p>全力で特組めば何事も楽しい</p>
       </div>
@@ -73,7 +72,7 @@
 
       <h2>♦︎学習について</h2>
       <h3>・学んできた言語・技術等</h3>
-      <p>HTML/CSS,&nbsp;JavaScript,&nbsp;React,&nbsp;WordPress,&nbsp;Firebase,&nbsp;Cloud Firestore</p>
+      <p>HTML/CSS,&nbsp;JavaScript,&nbsp;React,&nbsp;WordPress,&nbsp;PHP,&nbsp;Firebase,&nbsp;Cloud Firestore</p>
       <h3>・学習で意識していること</h3>
       <p>完成品の模写や教材の課題だけをこなすのではなく、<span>自分が作りたいものを色々調べながら実装するアウトプットを重視</span></p>
       <p><span>何故それを作り、何故その技術を選定したのかという【Why】の部分を意識</span></p>
@@ -89,25 +88,29 @@
   <!-- ここまでabout-me -->
 
   <div class="portfolio">
-    <div class="portfolio-top">
+    <div class="portfolio__top">
       <h1>portfolio</h1>
     </div>
-    <div class="portfolio-oddbox" id="original">
-      <div class="portfolio-description-box">
-        <h2>【健康麻雀サイト】</h2>
+    <div class="portfolio__oddbox" id="original">
+      <div class="portfolio-description__box">
+        <h2>【個人運営中 健康麻雀店の紹介サイト】</h2>
+        <a href="https://tokinokimi-kotetsu331539.com" target=_blank>https://tokinokimi-kotetsu331539.com</a>
         <h3>♦︎使用技術</h3>
-        <p>HTML/CSS,&ensp;JavaScript,&ensp;AmazonDynamoDB</p>
+        <p>HTML/CSS,&ensp;WordPress,&ensp;PHP</p>
         <h3>♦︎こだわりポイント</h3>
-        <p>サイトを閲覧する人を60代と想定し、シンプルで分かりやすいサイト構成を意識</p>
-        <p>記事を書くにあたり、実際に店舗を取材</p>
-        <p>DB及びデプロイにはAWSを使用</p>
+        <h4>
+          サイト運営という実践をしてみる
+        </h4>
+        <p>・ターゲットの明確化。60代と想定しシンプルで分かりやすいサイト構成を意識</p>
+        <p>・記事を書くにあたり実際に店舗取材を実施</p>
+        <p>・SEO対策しデプロイ後はgoogleコンソール、アナリティクスでサイト訪問数を確認＆検証</p>
       </div>
-      <div class="portfolio-img">
-        ここに写真が入る
+      <div class="portfolio-img__box">
+        <img class="MJ-img" src="img/folio.jpg" alt="健康麻雀サイトの写真">
       </div>
     </div>
 
-    <div class="portfolio-evenbox" id="team-develop">
+    <div class="portfolio__evenbox" id="team-develop">
       <div class="portfolio-description-box">
         <h2>【共同開発 ReactOSS】</h2>
         <h3>♦︎使用技術</h3>
@@ -115,12 +118,11 @@
         <h3>♦︎こだわりポイント</h3>
         <p>説明文章</p>
       </div>
-      <div class="portfolio-img">
-        ここに写真が入る
+      <div class="portfolio-img__box">
       </div>
     </div>
 
-    <div class="portfolio-oddbox" id="other">
+    <div class="portfolio__oddbox" id="other">
       <div class="portfolio-description-box">
         <h2>【自己PR用chat-bot】</h2>
         <h3>♦︎使用技術</h3>
@@ -130,12 +132,12 @@
         <p>・ポートフォリオサイト若しくは職務経歴書に誘導するという導線を意識</p>
         <p>・自分のアピールポイントについて思考を整理</p>
       </div>
-      <div class="portfolio-img">
+      <div class="portfolio-img__box">
         ここに写真が入る
       </div>
     </div>
 
-    <div class="portfolio-evenbox">
+    <div class="portfolio__evenbox">
       <div class="portfolio-description-box">
         <h2>【マイホーム紹介LP】</h2>
         <h3>♦︎使用技術</h3>
@@ -144,7 +146,7 @@
         <p>・色彩を統一することによる見やすさとお洒落感を意識</p>
         <p>・サイトを見た人に『行って見たい！』と思ってもらえるように設計</p>
       </div>
-      <div class="portfolio-img">
+      <div class="portfolio-img__box">
         <img class="myhome-img" src="./img/room.jpg" alt="トップ画像" width="300px" height="300px">
       </div>
     </div>

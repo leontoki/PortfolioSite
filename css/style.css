@@ -30,7 +30,6 @@ li {
 }
 
 a {
-  text-decoration: none;
   color: #443322;
 }
 
@@ -90,6 +89,10 @@ header li {
   font-size: 1rem;
 }
 
+header a {
+  text-decoration: none;
+}
+
 /* パーソナル情報 */
 .personal-info__mainbox {
   display: flex;
@@ -110,13 +113,18 @@ header li {
   margin-left:6.3rem;
 }
 
+.snslink__box a{
+  text-decoration: none;
+}
+
 /* 経歴 */
 .personal-info__subbox {
   margin-bottom:2rem;
   padding-left: 6rem;
 }
-.personal-info__subbox h3 {
-  margin-bottom:0rem;
+
+.personal-info__subbox h3{ 
+  margin-bottom:0.2rem;
 }
 
 .personal-info__subbox p {
@@ -141,25 +149,58 @@ header li {
 }
 
 /* ポートフォリオ */
-.portfolio-top{
+.portfolio__top{
+  margin-bottom:2rem;
   width: 100%;
-  font-size: 32px;
-  opacity: 0.5;
+  font-size:2rem;
+  opacity: 0.4;
   text-align: center;
 }
 
-.portfolio-oddbox {
+.portfolio-description__box h3 {
+  margin-bottom: 0.1rem;
+}
+
+.portfolio-description__box h4 {
+  margin:0.2rem 0rem 0.2rem 1.4rem;
+}
+
+.portfolio-description__box p {
+  margin-top: 0.1rem;
+}
+
+.portfolio-description__box a {
+  margin-left: 1.5rem;
+  color: rgb(95, 14, 170);
+  text-decoration-style: initial;
+}
+
+.portfolio-description__box a:hover {
+  background-color:transparent;
+}
+
+.portfolio__oddbox {
   display: flex;
   margin-left: 100px;
   margin-bottom:40px;
  }
 
-.portfolio-evenbox {
+.portfolio__evenbox {
   display: flex;
   margin-left: 100px;
   margin-bottom:40px;
   background-color:rgb(172, 167, 167,0.3);
  }
+
+ .portfolio-img__box img {
+   border: 1px solid;
+   border-radius: 4px;
+ }
+
+.MJ-img {
+   margin-top: 3rem;
+   margin-left: 2rem;
+}
 
  .myhome-img {
    margin-left: 40px;
