@@ -8,6 +8,11 @@ body {
   color: #443322;
 }
 
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 h2 {
   margin-top: 0;
 }
@@ -30,14 +35,21 @@ a {
 }
 
 a:hover {
-  background-color: rgba(14, 102, 84, 0.3);
+  background-color: rgba(14, 102, 84, 0.4);
+  padding: 0.2rem;
   color:white;
   border-radius: 4px;
 }
 
+span {
+  color: red;
+  font-weight: bold;
+}
+
+/* トップイメージ */
 .top__box {
   width: 100%;
-  height: 250px;
+  height: 270px;
   margin: auto;
   background-color: rgb(127, 246, 255,0.3);
   border-radius: 8px;
@@ -47,27 +59,28 @@ a:hover {
 }
 
 .top__box h1 {
-  margin:0;
   color: red;
+  padding: 1rem 0 1rem;
 }
 
 .top__box h2 {
   font-size: 1.2rem;
-  line-height: 2.4rem;
+  line-height: 2.3rem;
 }
 
-header ul{
-  width: 100%;
-  margin-top: 0;
-  margin-bottom:2rem;
-  background-color: rgba(127, 255, 229, 0.5);
-  border-radius: 8px;
-}
-
+/* ヘッダーメニュー */
 .nav__title {
   margin-right:5rem;
   margin-left:2.5rem;
   font-size:2rem;
+}
+         
+header ul{
+  width: 100%;
+  margin-top:0rem;
+  margin-bottom:2rem;
+  background-color: rgba(127, 255, 229, 0.5);
+  border-radius: 8px;
 }
 
 header li {
@@ -77,55 +90,57 @@ header li {
   font-size: 1rem;
 }
 
-.personalinfo-mainbox {
+/* パーソナル情報 */
+.personal-info__mainbox {
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom:2rem;
 }
 
-.person-box {
-  margin-right: 60px;
+.person__box {
+  margin-right: 3rem;
 }
 
-.hosoi-img{
+.personal-info__mainbox img{
   border-radius: 8px;
 }
 
-.snslink-box{
-  margin-top: 10px;
-  margin-left: 100px;
+.snslink__box{
+  margin-top:0.5rem;
+  margin-left:6.3rem;
 }
 
-.personalinfo-subbox {
-  margin-bottom: 40px;
-  padding-left: 100px;
+/* 経歴 */
+.personal-info__subbox {
+  margin-bottom:2rem;
+  padding-left: 6rem;
+}
+.personal-info__subbox h3 {
+  margin-bottom:0rem;
 }
 
-.companyname{
+.personal-info__subbox p {
+  margin-top:0.1rem;
+}
+
+.company-name{
   margin-bottom:-10px;
   font-weight: bold;
 }
 
-span{
-  color: red;
-  font-weight: bold;
-}
-
-.now{
-  width: 855px;
-  margin-left: 30px;
+.now {
+  width:52.5rem;
+  margin-left: 1.8rem;
   font-weight: bold;
   border-bottom:double;
 }
 
 .vision {
-  width: 1130px;
-  margin-left: 30px;
+  margin-left: 1.5rem;
   font-weight: bold;
-  border-bottom:double;
 }
 
-
+/* ポートフォリオ */
 .portfolio-top{
   width: 100%;
   font-size: 32px;
