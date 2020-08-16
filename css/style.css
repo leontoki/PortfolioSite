@@ -199,8 +199,12 @@ header a {
   border-radius: 6px;
  }
 
- .portfolio__evenbox h2,.portfolio__evenbox a,.devlop__container h3,.devlop__container p {
+ .portfolio__evenbox h2,.devlop__container h3,.devlop__container,.portfolio__evenbox a{
    margin-left:5rem;
+ }
+
+ .portfolio__evenbox i {
+  margin-left: 1rem;
  }
 
 .home__container,.devlop__container,.portfolio__oddbox {
