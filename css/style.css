@@ -13,13 +13,13 @@ h1 {
   margin-bottom: 0;
 }
 
-h2 {
-  margin-top: 0;
+h2,h3 {
   margin-bottom: 0.1rem;
 }
 
 p {
   padding-left: 20px;
+  margin-top: 0.1rem;
 }
 
 ul {
@@ -53,11 +53,10 @@ img {
 /* トップイメージ */
 .top__box {
   width: 100%;
-  height: 270px;
+  height: 280px;
   margin: auto;
-  background-color: rgb(127, 246, 255,0.3);
+  background-color: rgb(127, 246, 255,0.2);
   border-radius: 8px;
-  color:#443322;
   text-align: center;
   opacity: 0.8;
 }
@@ -129,10 +128,6 @@ header a {
   padding-left: 6rem;
 }
 
-.personal-info__subbox h3{ 
-  margin-bottom:0.2rem;
-}
-
 .personal-info__subbox p {
   margin-top:0.1rem;
 }
@@ -151,14 +146,14 @@ header a {
 }
 
 .study__container {
-  background-color: rgb(127, 246, 255,0.3);
+  background-color: rgb(127, 246, 255,0.2);
   padding-bottom: 0.3rem;
   margin-bottom: 1.5rem;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .study__container p {
-  line-height: 1rem;
+  line-height: 1.2rem;
   margin-top: 0.5rem;
 }
   
@@ -170,32 +165,25 @@ header a {
 
 /* ポートフォリオ */
 .portfolio__top{
-  margin-bottom:2rem;
   width: 100%;
+  margin-top: -2rem;
+  margin-bottom:2rem;
   font-size:2rem;
   opacity: 0.4;
   text-align: center;
 }
 
-.portfolio-description__box h3 {
-  margin-bottom: 0.1rem;
-}
-
-.portfolio-description__box h4 {
+.portfolio__description__box h4 {
   margin:0.2rem 0rem 0.2rem 1.4rem;
 }
 
-.portfolio-description__box p {
-  margin-top: 0.1rem;
-}
-
-.portfolio-description__box a,.portfolio__evenbox a {
+.portfolio__description__box a,.portfolio__evenbox a {
   margin-left: 1.5rem;
   color: rgb(95, 14, 170);
   text-decoration-style: initial;
 }
 
-.portfolio-description__box a:hover,.portfolio__evenbox a  {
+.portfolio__description__box a:hover,.portfolio__evenbox a  {
   background-color:transparent;
 }
 
@@ -205,10 +193,10 @@ header a {
  }
 
 .portfolio__evenbox {
-  background-color: rgb(127, 246, 255,0.2);
+  background-color: rgb(127, 246, 255,0.1);
   margin-bottom: 2rem;
   padding:1rem 0 1rem;
-  border-radius: 4px;
+  border-radius: 6px;
  }
 
  .portfolio__evenbox h2,.portfolio__evenbox a,.devlop__container h3,.devlop__container p {
@@ -219,19 +207,19 @@ header a {
   display: flex;
 }
         
-.portfolio-img__box img {
+.portfolio__img__box img {
   border: 1px solid;
  }
 
-.MJ-img {
+.MJ__img,.chat__img {
   margin:3rem 2rem 0rem;
 }
 
-.room-img1 {
+.room__img1 {
    margin:1rem 1rem 1rem 5.5rem;
  }
 
-.room-img2 {
+.room__img2 {
    margin:1rem 0.5rem 1rem 0.2rem;
  }
 
