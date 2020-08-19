@@ -67,6 +67,7 @@ img {
 }
 
 .top__box h2 {
+  margin-top: 0;
   font-size: 1.2rem;
   line-height: 2.3rem;
 }
