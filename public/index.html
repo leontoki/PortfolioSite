@@ -12,7 +12,7 @@
 <body>
 
   <div class="top__box">
-    <h1>自分の強み :企業に属して働くことが大好きです。</h1>
+    <h1>自分の強み :働くことが大好きです。</h1>
     <h2>
       好きなので自発的に行動出来ます。<br>全力で取り組み、お客様や仲間に貢献するのは楽しいことです。<br>たとえ業界や職種が変わっても本質は変わらないと本気で思っています。<br>これが社会人生活を10年以上経験している私が、必死に考え辿り着いた自分の強みです。<br>
       <span>=少しでもご興味を持って頂けましたら、是非ご連絡をお願い致します=</span><br>
@@ -23,13 +23,28 @@
       <li class="nav__title">細井哲哉 Portfolio Site</li>
       <li><a href="#about-me">about me</a></li>
       <li><a href="#original">個人運営中サイト</a></li>
-      <li><a href="#team-develop">共同開発経験（OSS）</a></li>
+      <li><a href="#wordpress">WordPress</a></li>
       <li><a href="#other">その他の制作物（オリジナル）</a></li>
     </ul>
   </header>
 
-  <div class="about-me" id="about-me">
+  <!-- ハンバーガーメニュー -->
+  <div class="ham__wrapper">
+    <div class="ham-menu_title">
+      ポートフォリオサイト
+      <i class="fas fa-bars" id="open-btn"></i>
+      <i class="fas fa-times" id="close-btn"></i>
+      <ul id="ham-menu" class="hidden">
+        <li><a href="#about-me">about me</a></li>
+        <li><a href="#original">個人運営中サイト</a></li>
+        <li><a href="#wordpress">WordPress</a></li>
+        <li><a href="#other">その他の制作物（オリジナル）</a></li>
+      </ul>
+    </div>
+  </div>
 
+
+  <div class="about-me" id="about-me">
     <div class="personal-info__mainbox">
       <div class="person__box">
         <img src="./img/hosoi.jpg" alt="img" width="300px" height="300px">
@@ -114,17 +129,19 @@
       </div>
     </div>
 
-    <div class="portfolio__evenbox" id="team-develop">
-      <h2>【共同開発 ReactOSS】</h2>
+    <div class="portfolio__evenbox" id="wordpress">
+      <h2>【Word Press】</h2>
       &ensp;&ensp;<a href="https://tokinokimi-kotetsu331539.com" target=_blank>https://tokinokimi-kotetsu331539.com</a>
       <div class="devlop__container">
         <div class="portfolio__img__box">
+          <img class="orche__img" src="img/orche.JPG" alt="オーケストラの写真">
         </div>
         <div class="portfolio__description__box">
           <h3>♦︎使用技術</h3>
-          <p>React</p>
+          <p>HTML/CSS,&ensp;WordPress,&ensp;PHP</p>
           <h3>♦︎こだわりポイント</h3>
-          <p>説明文章</p>
+          <p>・見やすく分かりやすいデザイン</p>
+          <p>・レスポンシブ対応</p>
         </div>
       </div>
     </div>
@@ -166,6 +183,7 @@
           <p>・実際に自分で使えるサイトを作成</p>
           <p>・色彩を統一することによる見やすさとお洒落感を意識</p>
           <p>・レスポンシブ対応</p>
+          <a href="http://kotetsuorchestra.local/">虎鉄</a>
         </div>
       </div>
     </div>
@@ -176,6 +194,7 @@
   <footer>
     (C) Hosoi Tetsuya 2020
   </footer>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
