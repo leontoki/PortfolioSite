@@ -288,21 +288,34 @@ header {
  display:block;
 }
 
-.ham-menu_title {
- margin-right: 0rem;
+.ham-menu_box {
  background-color: rgba(127, 255, 229);
- width:60%;
+ width:100%;
+ margin-right: 0rem;
  position: relative;
 }
 
+.ham-menu_box i {
+ float: right;
+ margin-top: 0.2rem;
+ margin-right: 0.4rem;
+}
+
+.ham-menu_title{
+ padding-left: 1rem;
+ font-size: 1rem;
+ font-weight: normal;
+}
+
 #ham-menu {
- width:86%;
- height: 150px;
  background-color: rgba(127, 255, 229);
+ width:95%;
+ height: 150px;
+ padding-left:5%;
  transition: .1s;
  position: absolute;
  top:0.5rem;
- }
+}
 
 .hidden {
  position: absolute;
@@ -359,8 +372,9 @@ header {
  margin-right:0.1rem; 
  }
 
- .nav__title {
-   margin: 0 3rem 0 0;
-   font-size: 1rem;
- }
+.nav__title {
+ margin: 0 3rem 0 0;
+ font-size: 1rem;
+}
+
 }
