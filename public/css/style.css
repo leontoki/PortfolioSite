@@ -172,7 +172,6 @@ header a {
 }
 
 .portfolio__description__box h3 {
-  /* margin:0.2rem 0rem 0.2rem 1.4rem; */
   margin-left: 0;
 }
 
@@ -243,7 +242,28 @@ header a {
  display: none;
 }
 
- @media (max-width:500px) {
+ @media (max-width:800px) {
+  
+ h2 {
+ font-size: 1rem;
+ }
+
+ h3 {
+ font-size: 0.9rem;
+ }
+
+ h4 {
+ font-size: 0.8rem;
+ }
+
+ p {
+ font-size: 0.7rem;
+ }
+
+ img {
+ /* transform: scale(0.7,0.7); */
+ display: none;
+ }
 
 .top__box {
  height: 220px;
@@ -255,7 +275,7 @@ header a {
 }
   
 .top__box h2 {
- font-size: 0.8rem;
+ font-size: 0.7rem;
  line-height:1.6rem;
   }
   
@@ -269,24 +289,78 @@ header {
 }
 
 .ham-menu_title {
+ margin-right: 0rem;
+ background-color: rgba(127, 255, 229);
+ width:60%;
  position: relative;
 }
 
 #ham-menu {
- width: 10rem;
- background-color: red;
- transition: .5s;
+ width:86%;
+ height: 150px;
+ background-color: rgba(127, 255, 229);
+ transition: .1s;
  position: absolute;
  top:0.5rem;
  }
 
 .hidden {
  position: absolute;
- transform:translate(0rem,-100rem) ;
+ transform:translate(-50rem,-0rem) ;
 }
 
-img {
-  transform: scale(0.8,0.8);
+.snslink__box {
+  width: 200px;
+  margin-left: 1rem;
+  margin-right:0.1rem;
 }
 
+.person__box {
+  margin-right: 0;
+  height: 100px;
+}
+
+.person__box img {
+  display: none;
+}
+
+.personal-info h2 {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.personal-info span {
+  margin-top: 0;
+  font-size: 0.8rem;
+}
+
+.personal-info__subbox {
+  padding-left: 0.1rem;
+}
+
+.portfolio__oddbox{
+  margin-left:2rem;
+}
+
+.portfolio__evenbox h2,.portfolio__evenbox a {
+ margin-left:1rem;
+}
+
+
+.portfolio__description__box {
+  margin-left: 1rem;
+}
+}
+
+@media (min-width:801px) and (max-width:1100px) {
+
+ header a {
+ font-size :0.8rem;
+ margin-right:0.1rem; 
  }
+
+ .nav__title {
+   margin: 0 3rem 0 0;
+   font-size: 1rem;
+ }
+}

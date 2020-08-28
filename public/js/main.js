@@ -8,7 +8,6 @@
 
   openBtn.addEventListener("click", () => {
     hamMenu.classList.remove("hidden")
-    alert("osa")
   })
 
   closeBtn.addEventListener("click", () => {
