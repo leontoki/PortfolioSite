@@ -70,7 +70,7 @@ img {
 
 /* ヘッダーメニュー */
 .nav__title {
-  margin-right:5rem;
+  margin-right:5.5rem;
   margin-left:2.5rem;
   font-size:2rem;
 }
@@ -85,7 +85,7 @@ header ul{
 
 header li {
   height:2.4rem;
-  margin-right: 1.5rem;
+  margin-right: 2.2em;
   line-height: 2.4rem;
   font-size: 1rem;
 }
@@ -270,18 +270,22 @@ header a {
  }
 
 .top__box {
- height: 220px;
+ height: 180px;
  width: 100%;
 }
   
 .top__box h1 {
- font-size: 1.3rem;
+ font-size: 1.2rem;
 }
   
 .top__box h2 {
  font-size: 0.7rem;
- line-height:1.6rem;
+ line-height:1.1rem;
   }
+
+.top__box span {
+ font-size:0.6rem;
+}
   
 header {
   display: none;
@@ -307,19 +311,24 @@ header {
 
 .ham-menu_title{
  padding-left: 1rem;
- font-size: 1rem;
+ font-size: 0.8rem;
  font-weight: normal;
 }
 
 #ham-menu {
  background-color: rgba(127, 255, 229);
  width:95%;
- height: 150px;
+ height: 120px;
  padding-left:5%;
  transition: .1s;
  position: absolute;
- top:0.5rem;
+ top:0.2rem;
 }
+
+#ham-menu a { 
+  font-size: 0.7rem;
+}
+
 
 .hidden {
  position: absolute;
@@ -348,16 +357,29 @@ header {
 
 .personal-info span {
   margin-top: 0;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .personal-info__subbox {
   padding-left: 0.1rem;
 }
 
-.portfolio__oddbox{
+.now {
+  font-size: 0.7rem;
+  width:28rem;
+  border: none;
+
+}
+
+/* ポートフォリオ */
+.portfolio__oddbox {
   margin-left:2rem;
 }
+
+.devlop__container {
+  margin-left: 1rem;
+}
+
 
 .portfolio__evenbox h2,.portfolio__evenbox a {
  margin-left:1rem;
@@ -370,7 +392,23 @@ header {
 }
 
 @media (min-width:801px) and (max-width:1100px) {
+.top__box {
+ height: 250px;
+}
 
+.top__box h1 {
+ font-size: 1.5rem;
+}
+     
+.top__box h2 {
+ font-size: 1rem;
+ line-height:2rem;
+}
+   
+.top__box span {
+ font-size:1rem;
+}
+   
  header a {
  font-size :0.8rem;
  margin-right:0.1rem; 
