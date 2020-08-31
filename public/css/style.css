@@ -105,10 +105,9 @@ header a {
   margin-right: 3rem;
 }
 
-.person__box img {
+#hosoi-picture {
   margin-top: 4rem;
 }
-
 
 .personal-info p {
   margin-top: 0.1rem;
@@ -265,8 +264,12 @@ header a {
  }
 
  img {
- /* transform: scale(0.7,0.7); */
+ transform: scale(0.6,0.6);
  display: none;
+ }
+
+ #hosoi-picture {
+   margin-right: 0;
  }
 
 .top__box {
@@ -317,22 +320,16 @@ header {
 
 #ham-menu {
  background-color: rgba(127, 255, 229);
- width:95%;
- height: 120px;
  padding-left:5%;
- transition: .1s;
- position: absolute;
- top:0.2rem;
+ margin: 0;
 }
 
 #ham-menu a { 
   font-size: 0.7rem;
 }
 
-
 .hidden {
- position: absolute;
- transform:translate(-50rem,-0rem) ;
+  display: none;
 }
 
 .snslink__box {
@@ -344,10 +341,6 @@ header {
 .person__box {
   margin-right: 0;
   height: 100px;
-}
-
-.person__box img {
-  display: none;
 }
 
 .personal-info h2 {
