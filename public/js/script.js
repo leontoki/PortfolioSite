@@ -10,6 +10,11 @@ $(function () {
     $('#ham-menu').slideUp(100);
   });
 
+  $("#top__pr").fadeIn(2000);
+
+
+
+
 
 
 
