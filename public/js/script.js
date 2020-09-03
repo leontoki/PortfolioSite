@@ -8,7 +8,6 @@ $(function () {
     }, 500);
   });
 
-
   // ハンバーガーメニューのスライド
   $('#open-btn').click(function () {
     $('#ham-menu').slideDown(100);
