@@ -247,6 +247,20 @@ header a {
  display: none;
 }
 
+#to-top {
+ width: 150px;
+ margin: 0 auto;
+ margin-bottom: 1rem;
+ text-align: center;
+}
+
+#to-top:hover {
+ background-color: rgba(14, 102, 84, 0.4);
+ padding: 0.2rem;
+ color:white;
+ border-radius: 4px;
+}
+
  @media (max-width:800px) {
   
  h2 {
